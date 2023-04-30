@@ -6,3 +6,6 @@ def test_add():
 
 def test_minus():
     assert my_operator.minus(2, 1) == 1
+
+def test_mod():
+    assert my_operator.mod(10, 3) == 1
